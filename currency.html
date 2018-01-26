@@ -1,0 +1,57 @@
+ <!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="converter.css">
+<head>
+
+
+
+<title>Currency Converter</title>
+</head>
+<body>
+      <div class="container">
+<h1>Currency Converter</h1>
+ <form>
+<input type="number"  id = "amount" onkeyup="con()"><label>EUR</label><br>
+
+       <select id="country" onchange="con()">
+            <option value="AUD">AUD</option>
+            <option value="BGN">BGN</option>
+            <option value="BRL">BRL</option>
+            <option value="CAD">CAD</option>
+            <option value="CHF">CHF</option>
+            <option value="CNY">CNY</option>
+            <option value="CZK">CZF</option>
+            <option value="DKK">DKK</option>
+            <option value="GBP">GBP</option>
+            <option value="HDK">HDK</option>
+            <option value="HRK">HRK</option>
+            <option value="HUF">HUF</option>
+            <option value="IDR">IDR</option>
+            <option value="ILS">ILS</option>
+            <option value="INR">INR</option>
+            <option value="JPY">JPY</option>
+            <option value="KRW">KRW</option>
+            <option value="MXN">MXN</option>
+            <option value="MYR">MYR</option>
+            <option value="NOR">NOR</option>
+            <option value="NZD">NZD</option>
+            <option value="PHP">PHP</option>
+            <option value="PLN">PLN</option>
+            <option value="RON">RON</option>
+            <option value="RUB">RUB</option>
+            <option value="SEK">SEK</option>
+            <option value="SGD">SGD</option>
+            <option value="USD">USD</option>
+            <option value="ZAR">ZAR</option>
+            <option value="TRY">TRY</option>
+            <option value="SGD">SGD</option>
+
+</select>
+</form>
+<p id="date">Date:</p>
+<p id="output">Converted amount:</p>
+</div><!--End of container-->
+
+<script src="currency.js"></script>
+</body>
+</html> 
